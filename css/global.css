@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin: 0 10%;
+}
+.text-center{
+    text-align: center;
+}
+
+/* header--style start*/
+.header{
+    background-color: #020235;
+    padding: 20px 0;
+}
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    width: 40px;
+    margin-right: 10px;
+}
+.logo{
+    display: flex;
+}
+.logo span{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+.navlist{
+    display: flex;
+    gap: 30px;
+}
+.navlist a{
+    position: relative;
+    color: #fff;
+    transition: all .5s ease-in-out;
+}
+.navlist a::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    right: 0;
+    bottom: -8px;
+    background-color: #fff;
+    transition: all .5s ease-in-out;
+}
+.navlist a:hover, .navlist a.active{
+    font-weight: 600;
+}
+.navlist a:hover::after, .navlist a.active::after{
+    width: 100%;
+}
+
+/* header--style end*/
+
+
+/* welcome--style start*/
+
+.welcome{
+    padding: 50px 0;
+}
+.welcome h1{
+    margin: 10px 0;
+    font-weight: 500;
+}
+.welcome p{
+    margin: 10px 0;
+    color: #464646;
+    line-height: 1.4;
+    font-weight: 200;
+}
+.welcome .btn{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 6px 20px;
+    background-color: #E03F8B;
+    border-radius: 10px;
+    color: #fff;
+    border: solid 1px transparent;
+    box-shadow: -1px 2px 7px 0px rgba(0, 0, 0, .7);
+    transition: all .5s ease-in-out;
+}
+.welcome .btn:hover{
+    color: #E03F8B;
+    border-color: #E03F8B;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+
+/* welcome--style end*/
+
+/* content--style end*/
+
+.content{
+    padding: 50px 0;
+    background-color: #cdcdcd;
+}
+.content .container{
+    display: flex;
+    align-items: center;
+}
+.content .container .img{
+    width: 50%;
+}
+
+.content .container .img img{
+    width: 50%;
+}
+.content .container .text{
+    width: 50%;
+}
+.content .container .text h2{
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+.content .container .text p{
+    line-height: 1.3;
+    text-align: justify;
+    color: #464646;
+}
+/* content--style end*/
+
+/* apropos--style start*/
+.apropos{
+    padding: 50px 0;
+}
+.apropos .container h2{
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.apropos .container .para{
+    margin-bottom: 20px;
+    color: #888888;
+}
+.apropos .container .para span{
+    color: black;
+}
+.apropos .container .para p:nth-child(2){
+    margin: 30px 0;
+}
+.apropos .container .option h3{
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.apropos .container .option li{
+    color: #888888;
+}
+
+/* apropos--style end*/
+
+/* footer--style start*/
+footer{
+    background-color: #020235;
+    padding: 70px 0;
+    color: #fff;
+    font-weight: 300;
+}
+/* footer--style end*/

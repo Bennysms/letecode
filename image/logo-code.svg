@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1395.54" height="869.119" viewBox="0 0 1395.54 869.119">
+  <defs>
+    <filter id="down" x="553.48" y="169.844" width="842.06" height="699.275" filterUnits="userSpaceOnUse">
+      <feOffset dy="-13" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="49.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="up" x="0" y="0" width="842.06" height="699.275" filterUnits="userSpaceOnUse">
+      <feOffset dy="13" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="49.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Groupe_3" data-name="Groupe 3" transform="translate(148.195 135.604)">
+    <g id="second" transform="translate(553.48 0)">
+      <path id="up-2" data-name="up" d="M75.179-.076l391.036.65a75.525,75.525,0,0,1,.251,151.05l-391.036-.65A75.525,75.525,0,0,1,75.179-.076Z" transform="translate(469.487 402.066) rotate(-150)" fill="#3dbaf3"/>
+      <g transform="matrix(1, 0, 0, 1, -701.67, -135.6)" filter="url(#down)">
+        <path id="down-2" data-name="down" d="M75.584,1.125,466.62.475a75.525,75.525,0,0,1-.251,151.05l-391.036.65a75.525,75.525,0,0,1,.251-151.05Z" transform="translate(1247.35 463.09) rotate(150)" fill="#3dbaf3"/>
+      </g>
+    </g>
+    <g id="first" transform="translate(0 0)">
+      <path id="down-3" data-name="down" d="M75.179-.076l391.036.65a75.525,75.525,0,0,1,.251,151.05l-391.036-.65A75.525,75.525,0,0,1,75.179-.076Z" transform="translate(76.184 195.845) rotate(30)" fill="#de2589"/>
+      <g transform="matrix(1, 0, 0, 1, -148.19, -135.6)" filter="url(#up)">
+        <path id="up-3" data-name="up" d="M75.584,1.125,466.62.475a75.525,75.525,0,0,1-.251,151.05l-391.036.65a75.525,75.525,0,0,1,.251-151.05Z" transform="translate(148.19 406.03) rotate(-30)" fill="#de2589"/>
+      </g>
+    </g>
+  </g>
+</svg>
