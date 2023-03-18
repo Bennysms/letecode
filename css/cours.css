@@ -1,0 +1,97 @@
+/* cours--style start*/
+.cours{
+    padding: 50px 0;
+}
+
+.cours .container h2{
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.cours-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cours-box .box{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    margin-bottom: 30px;
+}
+.cours-box .box .img{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 10px;
+    box-shadow: -1px 2px 7px 0px rgba(0, 0, 0, .3);
+    cursor: pointer;
+    
+}
+.cours-box .box .img img{
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    transition: all .5s ease-in-out;
+}
+.cours-box .box .img img:hover{
+    transform: scale(0.8);
+}
+
+.cours-box .box .text{
+    margin-top: 10px;
+}
+
+.cours-box .box .text h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+.cours-box .box .text p{
+    font-size: 14px;
+    font-weight: 200;
+    color: #4a4a4a;
+}
+
+/* cours--style end*/
+
+/* content--style start*/
+.content .container{
+    gap :5rem;
+}
+
+.content .form{
+    width: 50%;
+    padding: 30px;
+}
+.content .form form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.content form input{
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.content form #email{
+    padding: 20px 15px;
+    background-color: #a4a4a4;
+    color: black;
+    font-weight: bold;
+}
+
+.content form input[type="submit"]{
+    padding: 10px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #E03F8B;
+    font-size: 16px;
+    font-weight: 300;
+    box-shadow: -1px 2px 7px 0px rgba(0, 0, 0, .3);
+    transition: all .5s ease-in-out;
+}
+.content form input[type="submit"]:hover{
+    transform: scale(1.1);
+}
+/* content--style end*/
