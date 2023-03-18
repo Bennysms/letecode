@@ -50,6 +50,7 @@ body{
     position: relative;
     color: #fff;
     transition: all .5s ease-in-out;
+    display: block;
 }
 .navlist a::after{
     content: "";
@@ -94,7 +95,7 @@ body{
     border-radius: 10px;
     color: #fff;
     border: solid 1px transparent;
-    box-shadow: -1px 2px 7px 0px rgba(0, 0, 0, .7);
+    box-shadow: -1px 2px 7px 0px rgba(0, 0, 0, .3);
     transition: all .5s ease-in-out;
 }
 .welcome .btn:hover{
