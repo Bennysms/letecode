@@ -8,16 +8,15 @@
     font-weight: 500;
 }
 .cours-box{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, auto));
     align-items: center;
     flex-wrap: wrap;
+    gap: 20px;
 }
 .cours-box .box{
     display: flex;
     flex-direction: column;
-    width: 360px;
-    margin-bottom: 30px;
 }
 .cours-box .box .img{
     width: 100%;
