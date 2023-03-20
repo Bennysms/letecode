@@ -57,10 +57,12 @@
 .content .container{
     gap :5rem;
 }
+.content .container .text h2{
+    font-weight: bold;
+}
 
 .content .form{
     width: 50%;
-    padding: 30px;
 }
 .content .form form{
     display: flex;
@@ -84,7 +86,7 @@
     padding: 10px;
     cursor: pointer;
     color: #fff;
-    background-color: #E03F8B;
+    background-color: var(--roseColor--);
     font-size: 16px;
     font-weight: 300;
     box-shadow: -1px 2px 7px 0px rgba(0, 0, 0, .3);
