@@ -9,7 +9,7 @@
 }
 .cours-box{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(340px, auto));
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
