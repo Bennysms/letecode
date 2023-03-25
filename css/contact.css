@@ -12,7 +12,7 @@
 #form{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(530px, auto));
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 30px;
 }
@@ -29,7 +29,6 @@
     outline: none;
     border-radius: 10px;
     background-color: var(--champColor--);
-    transition: all .5s ease-in-out;
 }
 
 #form .text #texta{
@@ -55,3 +54,23 @@ input[type="submit"]{
 }
 
 /* contact--style end */
+/* Responsive design */
+@media screen and (max-width : 730px) {
+
+
+    #form{
+        grid-template-columns: 1fr;
+    }
+    #form .text{
+        display: block;
+    }
+    #form .text #texta{
+        display: block;
+        width: 100%;
+    }
+
+    input[type="submit"]{
+        display: block;
+        width: 100%;
+    }
+}

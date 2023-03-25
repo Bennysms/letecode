@@ -78,8 +78,9 @@
 .content form #email{
     padding: 20px 15px;
     background-color: #a4a4a4;
+}
+.content form #email::placeholder{
     color: black;
-    font-weight: bold;
 }
 
 .content form input[type="submit"]{
@@ -96,3 +97,28 @@
     transform: scale(1.1);
 }
 /* content--style end*/
+
+/* Responsive design */
+
+
+@media screen and (max-width : 870px) {
+    .cours{
+        padding: 30px 0;
+    }
+    .cours-box{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .content .container{
+        gap : 30px;
+    }
+    .content .form{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width : 630px){
+    .cours-box{
+        grid-template-columns: 1fr;
+    }
+}
